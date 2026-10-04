@@ -7,10 +7,20 @@ labels:
 body:
 - type: markdown
   attributes:
-    value: Search existing issues first. Do not submit passwords, API keys, personal
-      information, private collection data, or other sensitive information. Crop or
-      redact attachments, including sensitive photo backgrounds. Report security vulnerabilities
-      privately using the Security tab.
+    value: Please search existing reports first. Describe what you see in the app;
+      no technical diagnosis is needed. Reports and attachments are visible to everyone.
+      Remove personal information, account details, and private collection data before
+      posting. Never share passwords or access keys. For security concerns, use the
+      confidential reporting link in SECURITY.md.
+- type: dropdown
+  id: platform
+  attributes:
+    label: Platform
+    options:
+    - iOS
+    - Android
+  validations:
+    required: true
 - type: input
   id: game
   attributes:
