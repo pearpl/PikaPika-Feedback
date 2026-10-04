@@ -1,23 +1,27 @@
-# Contributing Feedback
+# Reporting Guidelines
 
-Thank you for helping improve PikaPika. This repository accepts feedback, not application source-code contributions or implementation pull requests.
+## Before you submit
 
-## Report a bug
+Search existing issues and discussions. If the same problem has already been reported, add relevant details to that report instead of opening a duplicate.
 
-Search existing issues first, then choose **Bug Report**. Include the app version, platform, OS version, device model, and a clear description. Provide numbered steps starting from a known screen or state, then explain the expected and actual behavior. State whether the problem happens every time or intermittently.
+## Report a problem
 
-## Request a feature
+Choose **Bug Report**, select **iOS** or **Android**, and include the app version, OS version, and device model. Describe what you did, what you expected, and what happened instead.
 
-Choose **Feature Request** for a concrete proposal. Explain the problem, the proposed behavior, and alternatives you considered. Use Discussions for early ideas, general feedback, or questions.
+Use numbered steps starting from a specific screen. Mention whether the problem happens every time or only occasionally. You only need to describe what you see in the app; no technical investigation is required.
+
+## Suggest a feature
+
+Choose **Feature Request** and describe what you want to do, the problem it would solve, and how you would like it to work. Use Discussions for early ideas or questions.
 
 ## Report a card recognition problem
 
-Choose **Card Recognition Issue**. Include the game, set, card name and number when known, language, variant, app version, device model, and expected versus actual detection.
+Choose **Card Recognition Issue**. Include the card name, set and number if known, language, and card variant. Describe the result shown in the app and the card you expected to see.
 
-## Attach screenshots or recordings safely
+## Attach a screenshot or recording
 
-Drag files into the form's screenshot or photo text area, or use GitHub's attachment control. Show only the relevant screen or card. Crop or redact personal information, private collection data, account details, and sensitive background content before uploading. Never upload passwords, API keys, credentials, or private logs.
+Drag the file into the form's attachment area or use **Add Files**. Show only the relevant screen or card. Crop or redact personal information, account details, private collection data, and sensitive background content before uploading.
 
-## Security reports
+## Security concerns
 
-Do not report vulnerabilities publicly. Use [private vulnerability reporting](https://github.com/pearpl/PikaPika-Feedback/security/advisories/new) and follow [SECURITY.md](SECURITY.md).
+Follow [SECURITY.md](SECURITY.md) to report a security concern confidentially.
