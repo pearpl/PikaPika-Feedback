@@ -1,0 +1,78 @@
+name: Bug Report
+description: Report a reproducible problem with PikaPika.
+title: '[Bug] '
+labels:
+- bug
+body:
+- type: markdown
+  attributes:
+    value: Search existing issues first. Do not submit passwords, API keys, personal
+      information, private collection data, or other sensitive information. Crop or
+      redact attachments, including sensitive photo backgrounds. Report security vulnerabilities
+      privately using the Security tab.
+- type: input
+  id: app-version
+  attributes:
+    label: App version
+  validations:
+    required: true
+- type: dropdown
+  id: platform
+  attributes:
+    label: Platform
+    options:
+    - iOS
+    - Android
+  validations:
+    required: true
+- type: input
+  id: os-version
+  attributes:
+    label: OS version
+  validations:
+    required: true
+- type: input
+  id: device
+  attributes:
+    label: Device model
+  validations:
+    required: true
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce
+    description: Provide numbered steps from a known screen or state.
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected behavior
+  validations:
+    required: true
+- type: textarea
+  id: actual
+  attributes:
+    label: Actual behavior
+  validations:
+    required: true
+- type: textarea
+  id: screenshots
+  attributes:
+    label: Screenshots or screen recordings
+    description: Attach cropped or redacted files using drag and drop or the attachment
+      control.
+  validations:
+    required: false
+- type: textarea
+  id: context
+  attributes:
+    label: Additional context
+  validations:
+    required: false
