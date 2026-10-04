@@ -1,0 +1,93 @@
+name: Card Recognition Issue
+description: Report an incorrect or missing card detection.
+title: '[Recognition] '
+labels:
+- scanner
+- bug
+body:
+- type: markdown
+  attributes:
+    value: Search existing issues first. Do not submit passwords, API keys, personal
+      information, private collection data, or other sensitive information. Crop or
+      redact attachments, including sensitive photo backgrounds. Report security vulnerabilities
+      privately using the Security tab.
+- type: input
+  id: game
+  attributes:
+    label: Game / card type
+  validations:
+    required: true
+- type: input
+  id: set
+  attributes:
+    label: Card set
+  validations:
+    required: false
+- type: input
+  id: card
+  attributes:
+    label: Card name
+  validations:
+    required: true
+- type: input
+  id: number
+  attributes:
+    label: Card number if known
+  validations:
+    required: false
+- type: input
+  id: language
+  attributes:
+    label: Language
+  validations:
+    required: true
+- type: dropdown
+  id: variant
+  attributes:
+    label: Card variant
+    options:
+    - Normal
+    - Holo
+    - Reverse Holo
+    - Other
+  validations:
+    required: true
+- type: input
+  id: app-version
+  attributes:
+    label: App version
+  validations:
+    required: true
+- type: input
+  id: device
+  attributes:
+    label: Device model
+  validations:
+    required: true
+- type: textarea
+  id: problem
+  attributes:
+    label: Description of recognition problem
+    description: For Other, specify the card variant here.
+  validations:
+    required: true
+- type: textarea
+  id: expected
+  attributes:
+    label: Expected detected card
+  validations:
+    required: true
+- type: textarea
+  id: actual
+  attributes:
+    label: Actual detected result
+  validations:
+    required: true
+- type: textarea
+  id: photo
+  attributes:
+    label: Photo or screenshot if possible
+    description: Do not upload images containing personal or sensitive information.
+      Crop or redact before attaching.
+  validations:
+    required: false
