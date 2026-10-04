@@ -1,24 +1,32 @@
-# PikaPika Feedback
+# PikaPika
 
-Welcome to the public feedback and issue tracker for PikaPika. Use this repository to report bugs, request features, and help improve card recognition.
+Your cards. Together.
 
-**The application source code is private. This repository contains no application source code and does not accept source-code contributions.**
+Share feedback, report a problem, or suggest an improvement to the PikaPika app for iOS and Android.
 
-## Choose the right channel
+**[Project website](https://pikapikacollect.com/) · [Help](https://pikapikacollect.com/help/) · [Discussions](https://github.com/pearpl/PikaPika-Feedback/discussions)**
 
-- [Issues](https://github.com/pearpl/PikaPika-Feedback/issues): reproducible bugs, concrete feature requests, and card recognition problems. Use the matching issue form.
-- [Discussions](https://github.com/pearpl/PikaPika-Feedback/discussions): general feedback, early ideas, and questions. Use General, Ideas, or Q&A as appropriate.
+## Download
 
-Search existing issues and discussions before opening a new report. If you find a matching issue, add useful reproduction details or a reaction instead of creating a duplicate.
+- **iOS — App Store:** Coming soon. Download link will be added here.
+- **Android — Google Play:** Coming soon. Download link will be added here.
 
-## Protect your privacy
+## Feedback and support
 
-Do not submit passwords, API keys, personal information, private collection data, credentials, or other sensitive information. Public issues, discussions, and attachments are visible to everyone. Crop or redact screenshots and recordings before uploading them, and check photo backgrounds for sensitive details.
+Search [existing reports](https://github.com/pearpl/PikaPika-Feedback/issues) before creating a new one, then choose the appropriate form:
 
-**Never report security vulnerabilities in public issues or discussions.** Use [private vulnerability reporting](https://github.com/pearpl/PikaPika-Feedback/security/advisories/new). See [SECURITY.md](SECURITY.md).
+- [Report a bug](https://github.com/pearpl/PikaPika-Feedback/issues/new?template=bug-report.yml) — describe what happened in the app and how to reproduce it.
+- [Suggest a feature](https://github.com/pearpl/PikaPika-Feedback/issues/new?template=feature-request.yml) — explain what you would like to do and why.
+- [Report a card recognition problem](https://github.com/pearpl/PikaPika-Feedback/issues/new?template=card-recognition.yml) — share which card you scanned and what the app recognized.
 
-## Follow progress
+For questions, ideas, and general feedback, start a [discussion](https://github.com/pearpl/PikaPika-Feedback/discussions). See [reporting guidelines](CONTRIBUTING.md) for tips on writing a useful report.
 
-Public status labels describe progress: `confirmed`, `planned`, `in-progress`, and `fixed`. A planned feature is not a release-date commitment. `fixed` reports should identify the version containing the fix when available.
+## Privacy and security
 
-Implementation and technical planning take place privately. Maintainers publish only user-facing updates here. See [CONTRIBUTING.md](CONTRIBUTING.md) for reporting guidance.
+Reports and attachments are visible to everyone. Remove personal information, account details, and private collection data before posting. Never share passwords or access keys.
+
+For security concerns, use the [confidential reporting form](https://github.com/pearpl/PikaPika-Feedback/security/advisories/new). See [SECURITY.md](SECURITY.md).
+
+## Author
+
+PikaPika is created by [Pear Group](https://www.pear.pl/).
