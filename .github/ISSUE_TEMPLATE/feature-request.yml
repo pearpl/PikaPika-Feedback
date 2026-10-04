@@ -1,0 +1,42 @@
+name: Feature Request
+description: Suggest a concrete improvement to PikaPika.
+title: '[Feature] '
+labels:
+- feature
+body:
+- type: markdown
+  attributes:
+    value: Search existing issues first. Do not submit passwords, API keys, personal
+      information, private collection data, or other sensitive information. Crop or
+      redact attachments, including sensitive photo backgrounds. Report security vulnerabilities
+      privately using the Security tab.
+- type: textarea
+  id: feature
+  attributes:
+    label: Feature description
+  validations:
+    required: true
+- type: textarea
+  id: problem
+  attributes:
+    label: Problem this feature would solve
+  validations:
+    required: true
+- type: textarea
+  id: solution
+  attributes:
+    label: Proposed solution
+  validations:
+    required: true
+- type: textarea
+  id: alternatives
+  attributes:
+    label: Alternative solutions considered
+  validations:
+    required: false
+- type: textarea
+  id: context
+  attributes:
+    label: Additional context
+  validations:
+    required: false
