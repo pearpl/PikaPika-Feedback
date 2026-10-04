@@ -1,15 +1,9 @@
 # Security Policy
 
-## Report a vulnerability privately
+## Report a security concern
 
-Do not disclose security vulnerabilities in public issues, discussions, comments, or attachments.
+Please use [GitHub's confidential reporting form](https://github.com/pearpl/PikaPika-Feedback/security/advisories/new). Do not post security vulnerabilities in issues, discussions, or comments.
 
-Use [GitHub Private Vulnerability Reporting](https://github.com/pearpl/PikaPika-Feedback/security/advisories/new) to send a confidential report to the maintainers. Include the affected app version and platform, a concise impact description, and minimal reproduction steps using test data you control.
+Include the affected app version, iOS or Android version, a description of the concern, and steps to reproduce it using your own test data. Share only the information needed to understand the report. Do not include passwords, access keys, or another person's information.
 
-Do not include passwords, API keys, credentials, personal information, private collection data, or information belonging to other users. If more sensitive details are needed, arrange a safe exchange with the maintainers through the private report.
-
-If the private reporting form is unavailable, do not post the vulnerability publicly. Wait until a private reporting channel is available.
-
-## Coordinated disclosure
-
-Keep details private while maintainers investigate and coordinate remediation. No response time or fix date is guaranteed. Support and remediation decisions are assessed for each report; identify the exact version affected.
+We will review the report and coordinate any necessary follow-up through the confidential report. Please keep vulnerability details confidential while they are being investigated and addressed.
